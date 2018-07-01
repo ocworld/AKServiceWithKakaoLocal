@@ -33,6 +33,8 @@ AKService의 위치 관련 데이터를 kakao local rest api를 이용하는 라
 
   s.source_files = 'AKServiceWithKakaoLocal/Sources/**/*'
   
+  s.swift_version = '4.1'
+  
   # s.resource_bundles = {
   #   'AKServiceWithKakaoLocal' => ['AKServiceWithKakaoLocal/Assets/*.png']
   # }
