@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AKServiceWithKakaoLocal_Example' do
+  pod 'AKServiceWithKakaoLocal', :path => '../'
+
+  target 'AKServiceWithKakaoLocal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
