@@ -30,8 +30,8 @@ public func requestDustItemsKL(coordinate2D: CLLocationCoordinate2D,
             return completionHandler(nil, nil)
         }
         
-        AKService.requestDustItems(tmXDouble: transResponse.documents[0].x,
-                                   tmYDouble: transResponse.documents[0].y,
+        AKService.requestDustItems(tmXDouble: transResponse.documents[0].xDouble,
+                                   tmYDouble: transResponse.documents[0].yDouble,
                                    pageNo: pageNo,
                                    numOfRows: numOfRows,
                                    msPageNo: msPageNo,

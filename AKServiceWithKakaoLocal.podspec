@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AKServiceWithKakaoLocal'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'AKService의 위치 관련 데이터를 kakao local rest api를 이용하는 라이브러리입니다.'
 
 # This description is used to generate tags and improve search results.
