@@ -22,7 +22,7 @@ pod 'AKServiceWithKakaoLocal'
 
 ## Author
 
-Keunhyun, ocworld@gmail.com
+Keunhyun Oh, ocworld@gmail.com
 
 ## License
 
