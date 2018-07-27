@@ -17,10 +17,6 @@ default_platform(:ios)
 
 platform :ios do
   desc "Description of what the lane does"
-m(:ios)
-
-platform :ios do
-  desc "Description of what the lane does"
 
  lane :bump_version do
     version = version_bump_podspec(path: "AKServiceWithKakaoLocal.podspec", bump_type: "patch")
